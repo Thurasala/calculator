@@ -1,0 +1,33 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .digit,
+  .operator,
+  .fun-keys {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #f7941e !important;
+    color: white;
+  
+  }
+  
+  .fun-keys {
+    background-color: #4caf50 !important;
+    color: white;
+  }
+  
